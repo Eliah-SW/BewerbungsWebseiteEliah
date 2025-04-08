@@ -21,18 +21,19 @@ body {
 }
 
 #language-switcher button {
-    background-color: #3F51B5;
-    color: white;
-    border: none;
-    padding: 10px;
-    margin: 5px;
-    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid #3F51B5;
+    padding: 10px 25px;
+    color: #3F51B5;
+    text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    font-size: 0.8rem;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 #language-switcher button:hover {
     background-color: #303F9F;
+    color: white;
 }
 
 .hero {
@@ -51,40 +52,42 @@ body {
 }
 
 .hero-text {
-    font-size: 5em;
+    font-size: 6em;
     margin: 0;
-    animation: fadeInUp 1s ease-in-out;
+    animation: fadeInUp 2s ease-in-out;
 }
 
 .hero-subtext {
     font-size: 2em;
-    animation: fadeInUp 1s ease-in-out 0.5s;
+    animation: fadeInUp 2s;
 }
 
 .hero-actions {
     margin-top: 20px;
     display: flex;
-    gap: 15px;
+    gap: 18px;
     justify-content: center;
 }
 
 .btn-primary {
-    background-color: #3F51B5;
+    background-color: transparent;
+    border: 3px solid #3F51B5;
     padding: 15px 30px;
-    color: white;
+    color: #3F51B5;
     text-decoration: none;
     border-radius: 5px;
     font-size: 1.1rem;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .btn-primary:hover {
-    background-color: #303F9F;
+    background-color: #3F51B5;
+    color: white;
 }
 
 .btn-secondary {
     background-color: transparent;
-    border: 2px solid #3F51B5;
+    border: 3px solid #3F51B5;
     padding: 15px 30px;
     color: #3F51B5;
     text-decoration: none;
@@ -99,7 +102,7 @@ body {
 }
 
 .section {
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 .bg-gradient {
@@ -110,11 +113,10 @@ h2 {
     font-size: 3.5em;
     color: #2c3e50;
     margin-bottom: 30px;
-    animation: fadeInUp 1s ease-in-out;
 }
 
 .progress-bar {
-    height: 10px;
+    height: 15px;
     background-color: #3F51B5;
     border-radius: 5px;
     margin-top: 15px;
@@ -127,7 +129,7 @@ h2 {
 .project-cards {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     margin-top: 40px;
 }
 
@@ -181,11 +183,10 @@ h2 {
 }
 
 #hobbies h2 {
-    font-size: 3.5em;
+    font-size: 4em;
     color: #2c3e50;
     margin-bottom: 30px;
     text-align: center;
-    animation: fadeInUp 1s ease-in-out;
 }
 
 .hobbies {
