@@ -10,7 +10,7 @@ body {
 .container {
     width: 90%;
     margin: 0 auto;
-    max-width: 1400px; 
+    max-width: 1400px;
 }
 
 #language-switcher {
@@ -35,7 +35,6 @@ body {
     background-color: #303F9F;
 }
 
-
 .hero {
     background: url('samuel-ferrara-1527pjeb6jg-unsplash.jpg') no-repeat center center/cover;
     color: white;
@@ -52,7 +51,7 @@ body {
 }
 
 .hero-text {
-    font-size: 5em; 
+    font-size: 5em;
     margin: 0;
     animation: fadeInUp 1s ease-in-out;
 }
@@ -62,8 +61,45 @@ body {
     animation: fadeInUp 1s ease-in-out 0.5s;
 }
 
+.hero-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn-primary {
+    background-color: #3F51B5;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #303F9F;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid #3F51B5;
+    padding: 15px 30px;
+    color: #3F51B5;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #3F51B5;
+    color: white;
+}
+
 .section {
-    padding: 80px 0; 
+    padding: 80px 0;
 }
 
 .bg-gradient {
@@ -75,14 +111,13 @@ h2 {
     color: #2c3e50;
     margin-bottom: 30px;
     animation: fadeInUp 1s ease-in-out;
-    
 }
 
 .progress-bar {
-    height: 10px; 
+    height: 10px;
     background-color: #3F51B5;
-    border-radius: 5px; 
-    margin-top: 15px; 
+    border-radius: 5px;
+    margin-top: 15px;
 }
 
 #projects {
@@ -92,17 +127,17 @@ h2 {
 .project-cards {
     display: flex;
     justify-content: center;
-    gap: 30px; 
+    gap: 30px;
     margin-top: 40px;
 }
 
 .card {
     background-color: white;
-    padding: 25px; 
-    border-radius: 12px; 
+    padding: 25px;
+    border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    width: 300px; 
+    width: 300px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -131,10 +166,10 @@ h2 {
 
 .project-img {
     width: 100%;
-    height: 250px; 
+    height: 250px;
     object-fit: cover;
-    border-radius: 12px; 
-    margin-bottom: 20px; 
+    border-radius: 12px;
+    margin-bottom: 20px;
 }
 
 .bg-light {
@@ -142,13 +177,13 @@ h2 {
 }
 
 #hobbies {
-    padding: 80px 0; 
+    padding: 80px 0;
 }
 
 #hobbies h2 {
-    font-size: 3.5em; 
+    font-size: 3.5em;
     color: #2c3e50;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
     text-align: center;
     animation: fadeInUp 1s ease-in-out;
 }
@@ -156,13 +191,13 @@ h2 {
 .hobbies {
     display: flex;
     justify-content: center;
-    gap: 40px; 
-    margin-top: 40px; 
+    gap: 40px;
+    margin-top: 40px;
 }
 
 .hobby {
     text-align: center;
-    width: 250px; 
+    width: 250px;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -179,7 +214,7 @@ h2 {
 }
 
 .hobby p {
-    font-size: 1.4em; 
+    font-size: 1.4em;
     color: #333;
 }
 
@@ -189,13 +224,13 @@ h2 {
 
 .contact-section {
     background-color: #ecf0f1;
-    padding: 80px 0; 
+    padding: 80px 0;
     animation: fadeInUp 1s ease-in-out;
 }
 
 .contact-section p {
     font-size: 1.4em;
-    margin: 15px 0; 
+    margin: 15px 0;
 }
 
 .contact-section a {
@@ -220,15 +255,15 @@ h2 {
 
 @media (max-width: 768px) {
     .hero-text {
-        font-size: 3.5em; 
+        font-size: 3.5em;
     }
 
     .hero-subtext {
-        font-size: 1.5em; 
+        font-size: 1.5em;
     }
 
     h2 {
-        font-size: 2.5em; 
+        font-size: 2.5em;
     }
 
     .project-cards {
