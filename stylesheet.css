@@ -13,6 +13,29 @@ body {
     max-width: 1400px; 
 }
 
+#language-switcher {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+}
+
+#language-switcher button {
+    background-color: #3F51B5;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#language-switcher button:hover {
+    background-color: #303F9F;
+}
+
+
 .hero {
     background: url('samuel-ferrara-1527pjeb6jg-unsplash.jpg') no-repeat center center/cover;
     color: white;

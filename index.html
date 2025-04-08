@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
+    <div id="language-switcher">
+        <button onclick="switchLanguage('de')">Deutsch</button>
+        <button onclick="switchLanguage('en')">English</button>
+    </div>
+    
     <header class="hero">
         <div class="container">
             <h1 class="hero-text">Eliah Gut</h1>
@@ -17,14 +22,14 @@
 
     <section id="about" class="section">
         <div class="container">
-            <h2>Über mich</h2>
-            <p>Ich bin im 1. Lehrjahr als Informatiker Applikationsentwickler. Ich wohne im Kanton Freiburg und habe meine Lehre gerade begonnen. Ich setze gerne meine Ideen in Projekte um.</p>
+            <h2 class="section-title">Über mich</h2>
+            <p class="about-text">Ich bin im 1. Lehrjahr als Informatiker Applikationsentwickler. Ich wohne im Kanton Freiburg und habe meine Lehre gerade begonnen. Ich setze gerne meine Ideen in Projekte um.</p>
         </div>
     </section>
 
     <section id="skills" class="section bg-gradient">
         <div class="container">
-            <h2>Frontend</h2>
+            <h2 class="section-title">Frontend</h2>
             <div class="skills">
                 <div class="skill">
                     <h3>HTML CSS</h3>
@@ -44,7 +49,7 @@
 
     <section id="skills" class="section bg-gradient">
         <div class="container">
-            <h2>Backend</h2>
+            <h2 class="section-title">Backend</h2>
             <div class="skills">
                 <div class="skill">
                     <h3>Java Spring Boot</h3>
@@ -64,7 +69,7 @@
 
     <section id="skills" class="section bg-gradient">
         <div class="container">
-            <h2>Sonstiges</h2>
+            <h2 class="section-title">Sonstiges</h2>
             <div class="skills">
                 <div class="skill">
                     <h3>Git</h3>
@@ -80,22 +85,22 @@
 
     <section id="projects" class="section">
         <div class="container">
-            <h2>Projekte</h2>
+            <h2 class="section-title">Projekte</h2>
             <div class="project-cards">
                 <div class="card">
                     <img src="F1Webseite.png" alt="F1 Angular Webseite" class="project-img">
-                    <h3>F1 Angular Webseite</h3>
-                    <p>Eine Angular Webseite, welche mit einer F1-API verbunden ist. Man kann alle Fahrer oder Rennstrecken anzeigen lassen, mit einer Deatilansicht.</p>
+                    <h3>F1 Angular Website</h3>
+                    <p>A website built with Angular that connects to an F1 API. It displays all drivers or tracks, with a detailed view for each.</p>
                 </div>
                 <div class="card">
                     <img src="LocoGeoWebseite.png" alt="Loco Geo" class="project-img">
                     <h3>Loco Geo</h3>
-                    <p>Ein Angular Webseite, wo mann ein Flaggen Quiz machen kann. Am schluss hat man eine Auswertung wie viele man in wie vielen Sekunden geschaft hat.</p>
+                    <p>An Angular website where you can take a flag quiz. At the end, it shows a score with the number of correct answers and the time taken.</p>
                 </div>
                 <div class="card">
                     <img src="ferrariAPI.png" alt="Ferrari Rest API" class="project-img">
                     <h3>Ferrari Rest API</h3>
-                    <p>Mit Java Spring Boot eine Rest API mit verschiedenen Ferrari Modellen, mit verschiedenen Endpoints, bei welchem die Ferraris sortiert werden.</p>
+                    <p>A REST API built with Java Spring Boot, featuring various Ferrari models. It includes several endpoints where Ferraris can be sorted and filtered.</p>
                 </div>
             </div>
         </div>
@@ -103,7 +108,7 @@
 
     <section id="hobbies" class="section bg-light">
         <div class="container">
-            <h2>Meine Hobbys</h2>
+            <h2 class="section-title">Meine Hobbys</h2>
             <div class="hobbies">
                 <div class="hobby">
                     <h3>Tennis</h3>
@@ -135,11 +140,13 @@
 
     <section id="contact" class="section contact-section">
         <div class="container">
-            <h2>Kontakt</h2>
+            <h2 class="section-title">Kontakt</h2>
             <p><strong>Telefon:</strong> 079 xxx xx xx</p>
             <p><strong>E-Mail:</strong> eliah.gut@gmx.ch</p>
             <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/eliah-gut-0a7541322/" target="_blank">Eliah Gut LinkedIn</a></p>
         </div>
     </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
